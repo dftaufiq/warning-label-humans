@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/u-0xb3e689-warning-label-for-humans-one-line-big-laugh-40e31f85/dftaufiq/warning-label-humans/rank.svg)](https://make.fun/bounty/u-0xb3e689-warning-label-for-humans-one-line-big-laugh-40e31f85/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-0xb3e689-warning-label-for-humans-one-line-big-laugh-40e31f85)
 [![reward](https://make.fun/badge/u-0xb3e689-warning-label-for-humans-one-line-big-laugh-40e31f85/dftaufiq/warning-label-humans/reward.svg)](https://make.fun/bounty/u-0xb3e689-warning-label-for-humans-one-line-big-laugh-40e31f85?utm_source=github&utm_medium=readme&utm_campaign=u-0xb3e689-warning-label-for-humans-one-line-big-laugh-40e31f85)
 
-A deterministic program that writes a single one-line warning label for humans — the safety warning that should come printed on every human being — to /output/entry.txt. One line, 103 characters, no dependencies and no network.
+A deterministic program that writes a single one-line warning label for humans — the safety warning that should come printed on every human being — to /output/entry.txt. One line, 113 characters, no dependencies and no network.
 
 ## Run it
 

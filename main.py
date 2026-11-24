@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 """Write the chosen warning label to the grader's output folder.
 
-The label was picked by an internal pairwise tournament over 9 original
-candidates (see the build folder's leaderboard-top10.md): one sharp idea
-(skipping the instructions, then reading them only after something
-catches fire), a three-beat escalation, punch on the last words, 103
-characters. This entrypoint is deterministic: it writes the same bytes
+The label was picked by an internal pairwise tournament over 11 original
+candidates (see the build-r2 folder's leaderboard-top10.md): one sharp idea
+(a "quick check" that turns into a three-hour rabbit hole), a two-beat
+setup with the reveal on the last words (medieval beekeeping), 113
+characters. Round 2 resubmit: the round 1 line ranked #1703, below the
+interim cut of 500, so its score was frozen; this line replaces it. This entrypoint is deterministic: it writes the same bytes
 on every run, needs no network and no third-party packages.
 
 The destination is $MAKEFUN_OUTPUT_DIR when set, otherwise /output.
@@ -16,7 +17,7 @@ from __future__ import annotations
 import os
 from pathlib import Path
 
-LABEL = "WARNING: This human skips the instructions, wings it, and reads them only after something catches fire."
+LABEL = "WARNING: This human says 'I'll just check one thing' and returns 3 hours later, an expert in medieval beekeeping."
 
 
 def destination_dir() -> Path:
